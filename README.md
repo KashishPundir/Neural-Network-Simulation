@@ -1,4 +1,4 @@
-# 📊 Neural Network Playground
+## 📊 Neural Network Playground
 
 An interactive, beginner-friendly web application to **visualize, experiment, and understand neural networks** in real-time.
 
@@ -11,9 +11,9 @@ This project demonstrates core deep learning concepts like:
 
 ---
 
-# 🚀 Features
+## 🚀 Features
 
-## 🎛️ Neural Network Playground
+### 🎛️ Neural Network Playground
 - Build custom neural networks with:
   - Adjustable hidden layers
   - Activation functions (ReLU, Sigmoid, Tanh)
@@ -31,7 +31,7 @@ This project demonstrates core deep learning concepts like:
 
 ---
 
-## 🔬 Propagation Demo
+### 🔬 Propagation Demo
 - Step-by-step forward & backward propagation
 - Visualize:
   - Weight updates
@@ -43,7 +43,7 @@ This project demonstrates core deep learning concepts like:
 
 ---
 
-## 🖼 CNN Explorer
+### 🖼 CNN Explorer
 - Learn CNN concepts:
   - Filters (kernels)
   - Feature maps
@@ -55,7 +55,7 @@ This project demonstrates core deep learning concepts like:
 
 ---
 
-## 🔄 RNN & LSTM Module
+### 🔄 RNN & LSTM Module
 - Understand sequence models
 - Covers:
   - Hidden states
@@ -65,7 +65,7 @@ This project demonstrates core deep learning concepts like:
 
 ---
 
-## 👁 Computer Vision Lab
+### 👁 Computer Vision Lab
 - Real-time webcam-based system
 - Features:
   - Face detection
@@ -76,7 +76,7 @@ This project demonstrates core deep learning concepts like:
 
 ---
 
-## 📉 Gradient Descent Visualization
+### 📉 Gradient Descent Visualization
 - Shows:
   - Learning rate impact
   - Convergence behavior
@@ -84,13 +84,13 @@ This project demonstrates core deep learning concepts like:
 
 ---
 
-## 🧠 Hopfield Network
+### 🧠 Hopfield Network
 - Demonstrates associative memory
 - Pattern storage and recall
 
 ---
 
-# 📊 Model Evaluation Metrics
+## 📊 Model Evaluation Metrics
 
 The system provides:
 
@@ -104,7 +104,7 @@ The system provides:
 
 ---
 
-# 📂 CSV Upload
+## 📂 CSV Upload
 
 - Upload your dataset
 - Automatically detects:
@@ -114,7 +114,7 @@ The system provides:
 
 ---
 
-# ⚙️ Technologies Used
+## ⚙️ Technologies Used
 
 - HTML5  
 - CSS3  
@@ -126,27 +126,27 @@ The system provides:
 
 ---
 
-# 🧠 How It Works
+## 🧠 How It Works
 
-## 1. Forward Pass
+### 1. Forward Pass
 - Inputs pass through layers  
 - Each neuron computes weighted sum + activation  
 
-## 2. Loss Calculation
+### 2. Loss Calculation
 - Prediction vs actual output  
 - Calculates error  
 
-## 3. Backpropagation
+### 3. Backpropagation
 - Error flows backward  
 - Gradients are computed  
 
-## 4. Weight Update
+### 4. Weight Update
 - Optimizer updates weights  
 - Improves performance  
 
 ---
 
-# 🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 
 You will learn:
 - Neural network working internally  
@@ -157,7 +157,7 @@ You will learn:
 
 ---
 
-# 🧪 Experiments to Try
+## 🧪 Experiments to Try
 
 - XOR without hidden layers → fails  
 - High learning rate → unstable training  
@@ -166,7 +166,7 @@ You will learn:
 
 ---
 
-# 📌 Future Improvements
+## 📌 Future Improvements
 
 - Add TensorFlow/PyTorch integration  
 - Model export feature  
@@ -175,7 +175,7 @@ You will learn:
 
 ---
 
-# 🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 
