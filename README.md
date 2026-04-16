@@ -1,134 +1,190 @@
-# 🧠 Neural Network (MLP) Simulation with Interactive Visualization
+# 📊 Neural Network Playground
 
-An interactive Streamlit-based Machine Learning project that demonstrates how a Multi-Layer Perceptron (MLP) learns from data by allowing users to experiment with hyperparameters, visualize loss convergence, observe decision boundary changes, and make real-time predictions on a student performance dataset.
+An interactive, beginner-friendly web application to **visualize, experiment, and understand neural networks** in real-time.
 
----
-
-## 🚀 Project Motivation
-
-Understanding how neural networks actually learn is often difficult because training happens behind the scenes.
-
-This project is designed to:
-- Visually explain how an MLP works
-- Show how hyperparameters affect learning
-- Help beginners build intuition around loss reduction and decision boundaries
-- Bridge the gap between theory and practice in Machine Learning
-
-Instead of treating neural networks as black boxes, this project turns them into interactive learning tools.
+This project demonstrates core deep learning concepts like:
+- Forward & Backward Propagation  
+- Gradient Descent  
+- CNN, RNN, LSTM  
+- Decision Boundaries  
+- Model Evaluation Metrics  
 
 ---
 
-## 📌 What This Project Does
+# 🚀 Features
 
-- Trains a custom-built Multi-Layer Perceptron from scratch using NumPy
-- Uses a dummy student dataset (`student.csv`) for binary classification (PASS / FAIL)
-- Allows users to dynamically:
-  - Change learning rate
-  - Change number of hidden layers
-  - Change neurons per layer
-  - Change activation functions
-- Visualizes:
-  - Loss vs Epochs
-  - Decision boundary for 2D feature datasets
-- Enables users to:
-  - Enter custom feature values
-  - Get prediction probability
-  - See final classification as PASS or FAIL
-
----
-
-## 🧪 Key Features
-
-### ⚙️ Hyperparameter Control
-Users can tune:
-- Learning Rate
-- Epochs
-- Number of Hidden Layers
-- Neurons per Hidden Layer
-- Activation Function (Linear, ReLU, Leaky ReLU, Tanh, Sigmoid)
-
-This helps users observe how model performance changes in real time.
+## 🎛️ Neural Network Playground
+- Build custom neural networks with:
+  - Adjustable hidden layers
+  - Activation functions (ReLU, Sigmoid, Tanh)
+  - Learning rate & epochs tuning
+- Visualizations:
+  - Decision boundary
+  - Loss & accuracy graphs
+  - Network structure
+- Datasets:
+  - XOR
+  - Spiral
+  - Moons
+  - Linear
+  - Custom CSV upload
 
 ---
 
-### 📉 Loss Visualization
-- Displays how loss decreases over epochs
-- Helps understand convergence behavior
-- Makes underfitting and overfitting patterns easier to spot
+## 🔬 Propagation Demo
+- Step-by-step forward & backward propagation
+- Visualize:
+  - Weight updates
+  - Gradient flow
+  - Loss calculation
+- Controls:
+  - Step forward/backward
+  - Auto-run
 
 ---
 
-### 📊 Decision Boundary Visualization
-- For datasets with two features, the app:
-  - Plots original data points
-  - Draws the learned decision boundary
-- Users can visually see how different parameters reshape the boundary
+## 🖼 CNN Explorer
+- Learn CNN concepts:
+  - Filters (kernels)
+  - Feature maps
+  - Pooling
+- Interactive:
+  - Draw input
+  - Apply filters (edge, blur, sharpen)
+  - See real-time output
 
 ---
 
-### 🔮 Real-Time Predictions
-- Users can input custom feature values
-- The trained model:
-  - Computes prediction probability
-  - Classifies the result as PASS or FAIL
+## 🔄 RNN & LSTM Module
+- Understand sequence models
+- Covers:
+  - Hidden states
+  - Time-step processing
+  - LSTM gates
+- Explains long-term dependency problem
 
 ---
 
-## 🛠️ Tech Stack Used
-
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Streamlit
-
-Note: No deep learning frameworks like TensorFlow or PyTorch were used. The neural network is implemented from scratch to enhance conceptual understanding.
-
----
-
-## 🧠 Model Architecture (High-Level)
-
-- Input Layer → Number of features
-- Hidden Layers → Fully connected layers with user-selected activation functions
-- Output Layer → Single neuron with Sigmoid activation
-- Loss Function → Mean Squared Error (MSE)
-- Optimization → Gradient Descent with Backpropagation
+## 👁 Computer Vision Lab
+- Real-time webcam-based system
+- Features:
+  - Face detection
+  - Attendance tracking
+- Displays:
+  - Live detection
+  - Student logs
 
 ---
 
-## 📂 Dataset Details
-
-- Dataset: student.csv
-- Type: Dummy / Educational dataset[Attached in this repository]
-- Target: Binary classification (PASS = 1, FAIL = 0)
-- Preprocessing:
-  - Feature standardization using mean and standard deviation
+## 📉 Gradient Descent Visualization
+- Shows:
+  - Learning rate impact
+  - Convergence behavior
+- Helps understand optimization
 
 ---
 
-## ▶️ How to Run the Project
+## 🧠 Hopfield Network
+- Demonstrates associative memory
+- Pattern storage and recall
 
-### Step 1: Clone the Repository
-```bash
-git clone https://github.com/KashishPundir/neural-network-simulation.git
-cd neural-network-simulation
-```
+---
 
-### Step 2: Install all mentioned dependencies
+# 📊 Model Evaluation Metrics
 
-### Step 3: Run the Streamlit Application:
-``` bash
-streamlit run app.py
-```
+The system provides:
 
-## 🧑‍💻 Author
+- Loss  
+- Accuracy  
+- Precision  
+- Recall  
+- F1 Score  
+- R² Score  
+- Confusion Matrix (TP, TN, FP, FN)  
 
-Kashish Pundir
+---
 
-B.Tech CSE (Data Science)
+# 📂 CSV Upload
 
-Aspiring Data Scientist | Machine Learning Enthusiast
+- Upload your dataset
+- Automatically detects:
+  - Features
+  - Labels
+- Preview data before training
 
+---
 
-### This project focuses on building intuition rather than maximizing accuracy.
-If you found this project helpful, consider starring ⭐ the repository.
+# ⚙️ Technologies Used
+
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla JS)  
+- Canvas API  
+- SVG  
+
+> No external ML libraries used — built from scratch for learning.
+
+---
+
+# 🧠 How It Works
+
+## 1. Forward Pass
+- Inputs pass through layers  
+- Each neuron computes weighted sum + activation  
+
+## 2. Loss Calculation
+- Prediction vs actual output  
+- Calculates error  
+
+## 3. Backpropagation
+- Error flows backward  
+- Gradients are computed  
+
+## 4. Weight Update
+- Optimizer updates weights  
+- Improves performance  
+
+---
+
+# 🎯 Learning Outcomes
+
+You will learn:
+- Neural network working internally  
+- Importance of hidden layers  
+- Gradient flow  
+- CNN vs RNN vs LSTM  
+- Hyperparameter impact  
+
+---
+
+# 🧪 Experiments to Try
+
+- XOR without hidden layers → fails  
+- High learning rate → unstable training  
+- Spiral dataset → needs deeper network  
+- Upload custom dataset  
+
+---
+
+# 📌 Future Improvements
+
+- Add TensorFlow/PyTorch integration  
+- Model export feature  
+- More datasets  
+- Advanced CV features  
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+- Fork the repo  
+- Create a feature branch  
+- Submit a pull request  
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
