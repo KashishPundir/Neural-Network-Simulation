@@ -166,6 +166,12 @@ You will learn:
 
 ---
 
+## How to run:
+1. Download .html file.
+2. Go to VS Code
+3. Click on Run option in above tab and select browser.
+---
+
 ## 📌 Future Improvements
 
 - Add TensorFlow/PyTorch integration  
